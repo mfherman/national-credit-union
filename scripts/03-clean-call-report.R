@@ -1,0 +1,209 @@
+## this script reads in, cleans up and selects relevant variables
+## from the ncua call report files and combines into one master data frame
+
+#### load libraries ####
+library(tidyverse)
+library(janitor)
+library(lubridate)
+
+# create look up table for type of membership field
+tom_code_lookup <- tribble(
+  ~tom_code, ~tom_descrip1, ~tom_descrip2,
+  "00", "Community credit unions", "urban or rural, other than those designated low income",
+  "01", "Associational", "religious, other than those designated low-income",
+  "02", "Associational", "fraternal, other than those designated low-income",
+  "03", "Associational", "other than religious or fraternal, or low-income",
+  "04", "Educational", NA,
+  "05", "Military", NA,
+  "06", "Federal, state, local government", NA,
+  "10", "Manufacturing", "chemicals",
+  "11", "Manufacturing", "petroleum refining",
+  "12", "Manufacturing", "primary and fabricated metals",
+  "13", "Manufacturing", "machinery",
+  "14", "Manufacturing", "transportation equipment",
+  "15", "Manufacturing", "all other",
+  "20", "Service", "finance, insurance, real estate, trade",
+  "21", "Service", "health care",
+  "22", "Service", "transportation",
+  "23", "Service", "communications and utilities",
+  "24", "Single common bond", "other",
+  "34", "Multiple group", "primarily educational",
+  "35", "Multiple group", "primarily military",
+  "36", "Multiple group", "primarily federal, state, local government",
+  "40", "Multiple group", "primarily chemical",
+  "41", "Multiple group", "primarily petroleum refining",
+  "42", "Multiple group", "primarily primary and fabricated metals",
+  "43", "Multiple group", "primarily machinery",
+  "44", "Multiple group", "primarily transportation equipment",
+  "49", "Multiple group", "primarily other manufacturing",
+  "50", "Multiple group", "primarily finance, insurance, real estate, trade",
+  "51", "Multiple group", "primarily health care",
+  "52", "Multiple group", "primarily transportation",
+  "53", "Multiple group", "primarily communications and utilities",
+  "54", "Multiple common bond", "other",
+  "98", "Multiple group", "other",
+  "99", "Non federal credit union", NA
+  )
+
+# read in foicu data and clean
+foicu <- read_csv(
+  "data/call-report-data-2017-12/foicu.txt",
+  col_types = cols(.default = "c")
+  ) %>%
+  clean_names() %>%
+  select(
+    cu_number,
+    join_number,
+    rssd,
+    cu_type,
+    cu_name,
+    street,
+    city,
+    state,
+    zip_code,
+    ncua_region = region,
+    issue_date,
+    lid = limited_inc,
+    peer_group,
+    tom_code
+  ) %>%
+  separate(issue_date, into = "issue_date", sep = " ", extra = "drop") %>%
+  mutate(
+    lid = as.integer(lid),
+    issue_date = mdy(issue_date),
+    ncua_region = case_when(
+      ncua_region == "1" ~ "Northeast",
+      ncua_region == "2" ~ "Mid-Atlantic",
+      ncua_region == "3" ~ "Southeast",
+      ncua_region == "4" ~ "Midwest",
+      ncua_region == "5" ~ "West",
+      ncua_region == "8" ~ "ONES"
+      ),
+    peer_group = case_when(
+      peer_group == "1" ~ "less than 2m",
+      peer_group == "2" ~ "2m to 10m",
+      peer_group == "3" ~ "10m to 50m",
+      peer_group == "4" ~ "50m to 100m",
+      peer_group == "5" ~ "100m to 500m",
+      peer_group == "6" ~ "more than 500m"
+      ),
+    cu_type = case_when(
+      cu_type == "1" ~ "fcu",
+      cu_type == "2" ~ "fiscu",
+      cu_type == "3" ~ "nfiscu"
+      )
+    ) %>%
+  left_join(tom_code_lookup, by = "tom_code")
+
+# read in table with cdfi indicator var
+cdfi_cu <- read_csv("data/all_cu.csv", col_types = cols(.default = "c")) %>%
+  select(cu_number, cdfi) %>%
+  mutate(cdfi = if_else(cdfi == "1", 1L, 0L, missing = 0L))
+
+# read in ncua call report table by table, select vars, change to numeric
+fs220 <- read_csv(
+  "data/call-report-data-2017-12/fs220.txt",
+  col_types = cols(.default = "c")
+  ) %>%
+  clean_names() %>%
+  select(
+    cu_number,
+    n_current_members = acct_083,
+    n_potential_members = acct_084,
+    tot_assets = acct_010,
+    tot_deposits = acct_018,
+    tot_non_member_deposit = acct_880,
+    n_non_member_deposits = acct_457,
+    tot_loans_leases = acct_025b,
+    n_loans_leases = acct_025a
+    ) %>%
+  mutate_at(vars(-cu_number), as.double)
+
+fs220a <- read_csv(
+  "data/call-report-data-2017-12/fs220a.txt",
+  col_types = cols(.default = "c")
+  ) %>%
+  clean_names() %>%
+  select(
+    cu_number,
+    n_accounts = acct_460,
+    tot_interest_income = acct_115,
+    tot_invest_income = acct_120,
+    tot_trade_income = acct_124,
+    tot_fee_income = acct_131,
+    n_ft_empl = acct_564a,
+    n_pt_empl = acct_564b,
+    tot_net_worth = acct_997,
+    ratio_net_worth = acct_998
+    ) %>%
+  mutate_at(vars(-cu_number), as.double)
+
+fs220c <- read_csv(
+  "data/call-report-data-2017-12/fs220c.txt",
+  col_types = cols(.default = "c")
+  ) %>%
+  clean_names() %>%
+  select(
+    cu_number,
+    n_branches = acct_566
+    ) %>%
+  mutate_at(vars(-cu_number), as.double)
+
+fs220d <- read_csv(
+  "data/call-report-data-2017-12/fs220d.txt",
+  col_types = cols(.default = "c")
+) %>%
+  clean_names() %>%
+  select(cu_number, member_minority_status:eligible_native_american) %>%
+  mutate(
+    mdi = if_else(
+      member_minority_status == "1" & eligible_minority_status == "1",
+      1L,
+      0L
+    )
+  ) %>%
+  mutate_at(vars(member_minority_status:eligible_native_american), as.integer)
+
+# join all tables to one by cu_number
+cu_all <- reduce(
+  list(foicu, cdfi_cu, fs220, fs220a, fs220c, fs220d),
+  left_join, by = "cu_number"
+  ) %>%
+  select(
+    cu_number:issue_date,
+    peer_group:tom_descrip2,
+    lid,
+    cdfi,
+    mdi,
+    member_minority_status:eligible_native_american,
+    everything()
+  )
+
+tabyl(cu_all, mdi)
+tabyl(cu_all, cdfi)
+tabyl(cu_all, lid)
+tabyl(cu_all, cu_type, tom_code)
+
+
+cu_all %>%
+  group_by(ncua_region) %>%
+  summarise(
+    n = n(),
+    med_assets = median(tot_assets),
+    mean_assets = mean(tot_assets)
+    ) %>%
+  arrange(desc(med_assets))
+
+
+
+
+cu_all %>% filter(ncua_region == "ONES")
+
+
+
+acct_meta <- read_csv("data/call-report-data-2017-12/AcctDesc.txt")
+
+foi_meta <- read_csv(
+  "data/call-report-data-2017-12/FOICUDES.txt",
+  col_types = cols(.default = "c")
+  )

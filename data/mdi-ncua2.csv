@@ -1,0 +1,597 @@
+REGION,"CUNUMBER",CU NAME,CITY,STATE,ASSETS,MINORITY TYPE,MEMBERS,"LOWINCOME?"
+1,19,NEW HAVEN TEACHERS,NEW HAVEN,CT,"$              9,845,274","Black American, Hispanic American","1,440",No
+1,798,TRANSIT AUTHORITY DIVISION B,NEW YORK,NY,"$              5,903,219","Black American, Hispanic American","1,785",Yes
+1,1343,EMPIRT 207,NEW YORK,NY,"$              4,490,852","Black American, Hispanic American",779,No
+1,1863,CONNECTICUT TRANSIT,HARTFORD,CT,"$                 917,607","Black American, Hispanic American",643,Yes
+1,3714,UNIVERSITY SETTLEMENT,NEW YORK,NY,"$                 819,665","Asian American, Hispanic American",204,Yes
+1,3790,SCIENCE PARK,NEW HAVEN,CT,"$              4,397,297",Black American,748,Yes
+1,4170,ABYSSINIAN BAPTIST CHURCH,NEW YORK CITY,NY,"$                 871,844",Black American,294,Yes
+1,4246,FAR ROCKAWAY POSTAL,FAR ROCKAWAY,NY,"$                 391,577",Black American,84,Yes
+1,4441,SING SING EMPLOYEES,OSSINING,NY,"$              8,829,156",Hispanic American,"1,436",Yes
+1,4787,TANDEM,WARREN,MI,"$           21,641,296","Black American, Hispanic American","2,972",Yes
+1,5022,ST. MARKS,NEW YORK,NY,$                         833,"Black American, Hispanic American",1,Yes
+1,5127,CHURCH OF THE MASTER,NEW YORK,NY,"$                 891,131",Black American,318,Yes
+1,5263,ST. AUGUSTINE PRESBYTERIAN,BRONX,NY,"$                 103,057","Black American, Hispanic American",117,Yes
+1,5655,UNION CONGREGATIONAL,NEW YORK,NY,"$                 262,187",Black American,104,Yes
+1,5885,A.B.D.,WARREN,MI,"$           62,946,841",Black American,"12,563",Yes
+1,6733,CENCAP,HARTFORD,CT,"$           57,002,747","Black American, Hispanic American","9,221",Yes
+1,7172,ST. PHILIP'S CHURCH,NEW YORK,NY,"$              1,344,922",Black American,404,Yes
+1,7504,CONCORD,BROOKLYN,NY,"$              9,076,256",Black American,865,Yes
+1,7628,SOUTHEAST MICHIGAN STATE EMPLOYEES,SOUTHFIELD,MI,"$           35,187,843",Black American,"4,093",Yes
+1,8950,ALL SOULS,NEW YORK,NY,"$                 211,521",Black American,151,Yes
+1,10845,FAITH TABERNACLE BAPTIST,STAMFORD,CT,"$                 180,242",Black American,198,Yes
+1,11380,FIDELIS,NEW YORK,NY,"$                 347,731",Black American,294,Yes
+1,15067,TRANSFIGURATION PARISH,BROOKLYN,NY,"$              9,251,176",Hispanic American,"2,365",Yes
+1,15080,ROCKLAND EMPLOYEES,SPRING VALLEY,NY,"$           38,028,466","Black American, Hispanic American","6,789",No
+1,15129,EPIPHANY,BROOKLYN,NY,"$                 152,058",Hispanic American,74,Yes
+1,16383,NEW ENGLAND LEE,BOSTON,MA,"$              3,702,642",Asian American,311,No
+1,16532,BOOTSTRAP,NEW YORK,NY,"$                 345,679",Hispanic American,41,No
+1,16790,UNION BAPTIST GREENBURGH,WHITE PLAINS,NY,"$                 329,506",Black American,298,Yes
+1,17358,GOOD COUNSEL,BROOKLYN,NY,"$                 434,772","Black American, Hispanic American",186,Yes
+1,18528,SAINT JOHN A M E,NIAGARA FALLS,NY,"$                 183,273","Black American, Hispanic American",192,Yes
+1,18858,SPC BROOKLYN,BROOKLYN,NY,"$                 439,311",Black American,289,Yes
+1,19775,GREATER CENTENNIAL,MOUNT VERNON,NY,"$                 260,696",Black American,306,Yes
+1,20060,N.U.L.,NEW YORK,NY,"$                 389,434",Black American,71,Yes
+1,20419,BYKOTA,BROOKLYN,NY,"$              1,594,792",Black American,967,Yes
+1,20495,TRANSFIGURATION MANHATTAN,NEW YORK,NY,"$                   63,878","Black American, Hispanic American",87,Yes
+1,20885,MEDISYS EMPLOYEES,JAMAICA,NY,"$           29,001,377","Asian American, Black American, Hispanic American","3,961",Yes
+1,21355,ST. JOHN UNITED,BUFFALO,NY,"$              1,026,102",Black American,"1,317",Yes
+1,21614,FIRST BAPTIST CHURCH (STRATFORD),STRATFORD,CT,"$                 263,498",Black American,311,Yes
+1,21831,TRANSIT,VALLEY STREAM,NY,"$           14,391,441","Asian American, Black American, Hispanic American","4,269",Yes
+1,22226,FIRST BAPTIST CHURCH,EAST ELMHURST,NY,"$                 311,689",Black American,207,Yes
+1,22344,QUEENS CLUSTER,HICKSVILLE,NY,"$                 460,001",Black American,115,Yes
+1,23144,LOCAL 804,LONG ISLAND CITY,NY,"$           19,337,660","Black American, Hispanic American","2,707",Yes
+1,23177,SOUTHERN BAPTIST CHURCH OF NEW YORK,NEW YORK,NY,"$                 203,930",Black American,103,Yes
+1,23317,LAST,LONG ISLAND CITY,NY,"$                 137,044","Asian American, Black American, Hispanic American",436,Yes
+1,23411,CONNECTICUT,NORTH HAVEN,CT,"$              7,764,506","Black American, Hispanic American","1,697",Yes
+1,23503,KOREAN AMERICAN CATHOLICS,FLUSHING,NY,"$           26,421,595",Asian American,"1,962",No
+1,23658,PAUL QUINN,JAMAICA,NY,"$                 330,778",Black American,176,Yes
+1,23888,BEREA,BROOKLYN,NY,"$                 106,145",Black American,297,Yes
+1,23896,EAST END BAPTIST TABERNACLE,BRIDGEPORT,CT,"$                 140,770",Black American,414,Yes
+1,23958,NEW YORK UNIVERSITY,NEW YORK,NY,"$           22,199,548","Asian American, Black American, Hispanic American","5,395",Yes
+1,24030,NEW RISING STAR,DETROIT,MI,"$                   97,525",Black American,109,Yes
+1,24043,MESSIAH BAPTIST-JUBILEE,BROCKTON,MA,"$                 766,749",Black American,431,Yes
+1,24232,LOWER EAST SIDE PEOPLE'S,NEW YORK,NY,"$           52,713,450","Black American, Hispanic American","8,084",Yes
+1,24598,VARICK MEMORIAL,UNIONDALE,NY,"$                 334,774",Black American,176,Yes
+REGION,"CUNUMBER",CU NAME,CITY,STATE,ASSETS,MINORITY TYPE,MEMBERS,"LOWINCOME?"
+1,24642,BROOKLYN COOPERATIVE,BROOKLYN,NY,"$           23,099,092","Asian American, Black American, Hispanic American","6,422",Yes
+1,24648,LCO,HAYWARD,WI,"$              1,495,426",Native American,"1,591",Yes
+1,24670,1199 SEIU,NEW YORK,NY,"$           68,528,647","Asian American, Black American, Hispanic American","27,245",Yes
+1,24740,LOVE GOSPEL ASSEMBLY,BRONX,NY,"$                   61,506","Black American, Hispanic American",168,Yes
+1,24784,NEW COVENANT DOMINION,BRONX,NY,"$              1,041,935","Black American, Hispanic American",463,Yes
+1,24790,BEULAH,BROOKLYN,NY,"$                 184,388",Black American,201,Yes
+1,24823,URBAN UPBOUND,LONG ISLAND CIT,NY,"$                 873,220",Black American,"1,240",Yes
+1,24863,SENECA NATION OF INDIANS,IRVING,NY,"$              2,636,087",Native American,"1,262",Yes
+1,60153,MUNICIPAL,NEW YORK,NY,"$     2,700,062,697","Asian American, Black American, Hispanic American, Native American","425,916",No
+1,62167,I.M. DETROIT DISTRICT,DETROIT,MI,"$              1,536,372",Black American,395,No
+1,62177,BETHEL BAPTIST CHURCH EAST,DETROIT,MI,"$                 609,330",Black American,241,No
+1,62324,GREATER NEW MT. MORIAH BAPTIST CHRH,DETROIT,MI,"$                 349,015",Black American,210,No
+1,63713,GREATER CHRIST BAPTIST CHURCH,DETROIT,MI,"$                 633,925",Black American,372,No
+1,63906,EMPIRE BR 36 NATL ASSOC OF LE CARR,NEW YORK,NY,"$              5,113,726","Asian American, Black American, Hispanic American","1,454",No
+1,63918,YONKERS POSTAL EMPLOYEES,YONKERS,NY,"$              7,943,571",Black American,552,No
+1,66806,GREATER GALILEE BAPTIST,MILWAUKEE,WI,"$                 167,128",Black American,130,Yes
+1,68044,HOLY REDEEMER COMMUNITY OF SE WIS.,MILWAUKEE,WI,"$                 908,428",Black American,248,Yes
+Total Minority Depository Institutions for Region 1: 71,"$     3,272,091,856",,"550,967",,,,,
+2,112,ESSEX COUNTY NJ EMPLOYEES,NEWARK,NJ,"$              7,039,906","Black American, Hispanic American","2,069",Yes
+2,266,LIBRARY OF CONGRESS,WASHINGTON,DC,"$         240,637,100",Black American,"9,734",No
+2,538,GOVERNMENT PRINTING OFFICE,WASHINGTON,DC,"$           36,862,543",Black American,"4,115",Yes
+2,648,HOWARD UNIVERSITY EMPLOYEES,WASHINGTON,DC,"$           10,503,994",Black American,"1,616",Yes
+2,1015,NORTH JERSEY,TOTOWA,NJ,"$         230,199,012","Asian American, Black American, Hispanic American","26,899",Yes
+2,1282,RICHMOND HERITAGE,RICHMOND,VA,"$              7,045,130",Black American,"1,829",Yes
+2,1407,DEMOCRACY,ALEXANDRIA,VA,"$         155,211,956",Black American,"15,189",Yes
+2,1546,MERCER COUNTY IMPROVEMENT AUTHORITY,HAMILTON,NJ,"$                 366,698",Black American,204,Yes
+2,1821,DISTRICT OF COLUMBIA TEACHERS,WASHINGTON,DC,"$           47,161,581",Black American,"5,252",Yes
+2,2538,RTA HAYDEN,EAST CLEVELAND,OH,"$              1,806,408",Black American,698,Yes
+2,2769,SECURITYPLUS,BALTIMORE,MD,"$         395,102,797",Black American,"35,029",Yes
+2,2822,LANCASTER PA FIREMEN,LANCASTER,PA,"$                 896,304","Black American, Hispanic American",338,Yes
+2,2892,PLAINFIELD POLICE & FIREMEN'S,PLAINFIELD,NJ,"$              3,598,164","Black American, Hispanic American",529,No
+2,3029,VIRGINIA STATE UNIVERSITY,SOUTH CHESTERFI,VA,"$              8,560,082",Black American,"2,045",Yes
+2,3297,PHILADELPHIA MINT,PHILADELPHIA,PA,"$                 760,489",Black American,370,Yes
+2,3764,TRANSIT EMPLOYEES,WASHINGTON,DC,"$         101,487,828",Black American,"13,891",Yes
+2,4037,HUD,WASHINGTON,DC,"$           45,347,139",Black American,"4,978",Yes
+2,4738,ATLANTIC COUNTY NJ EMPLOYEES,NORTHFIELD,NJ,"$              2,651,072","Asian American, Black American, Hispanic American",600,No
+2,4833,PORTSMOUTH SCHOOLS,PORTSMOUTH,VA,"$              2,411,725",Black American,"1,040",Yes
+2,5227,ASBURY,WASHINGTON,DC,"$                 361,250",Black American,218,Yes
+2,5754,ANDREWS FEDERAL CREDIT UNION,SUITLAND,MD,"$     1,525,060,048",Black American,"121,825",Yes
+2,5970,METROPOLITAN CHURCH,SUFFOLK,VA,"$              8,784,804",Black American,"1,774",No
+2,5987,OCNAC #1,JERSEY CITY,NJ,"$              6,383,095","Black American, Hispanic American","2,458",Yes
+2,6015,CAMDEN POLICE,CAMDEN,NJ,"$                 758,585","Black American, Hispanic American",218,Yes
+2,6088,D C FIRE DEPARTMENT,WASHINGTON,DC,"$              7,428,220",Black American,"1,534",No
+2,6207,CARMEL BROTHERHOOD,CINCINNATI,OH,"$                 143,617",Black American,101,Yes
+2,6464,PAHO/WHO,WASHINGTON,DC,"$         215,355,908",Hispanic American,"5,182",No
+2,6506,MT GILEAD,WASHINGTON,DC,"$                   57,927",Black American,63,Yes
+2,7184,LIBERTY SAVINGS,JERSEY CITY,NJ,"$           91,958,253","Asian American, Black American, Hispanic American","22,054",Yes
+2,9384,WASHINGTON TYPOGRAPHIC,WASHINGTON,DC,"$              2,553,892",Black American,385,No
+2,9613,SARGENT,WASHINGTON,DC,"$                 324,275",Black American,407,Yes
+2,9723,N.J.T. EMPLOYEES,WALDWICK,NJ,"$           13,692,814","Black American, Hispanic American","1,004",No
+2,10636,BRUNSWICK COUNTY TEACHERS,LAWRENCEVILLE,VA,"$                 562,720",Black American,390,Yes
+2,10803,ISRAEL MEMORIAL A M E,NEWARK,NJ,"$                 449,157",Black American,173,No
+2,11783,S I PHILADELPHIA,PHILADELPHIA,PA,"$                 222,860",Black American,122,Yes
+2,11951,NORFOLK MUNICIPAL,NORFOLK,VA,"$           25,891,746",Black American,"2,767",No
+REGION,"CUNUMBER",CU NAME,CITY,STATE,ASSETS,MINORITY TYPE,MEMBERS,"LOWINCOME?"
+2,11986,HIGH STREET BAPTIST CHURCH,ROANOKE,VA,"$              1,982,273",Black American,312,Yes
+2,12227,PASSAIC POLICE,PASSAIC,NJ,"$              6,273,870",Hispanic American,606,Yes
+2,12630,PORTALLIANCE,NORFOLK,VA,"$           99,574,825",Black American,"12,057",No
+2,13234,S M,PHILADELPHIA,PA,"$                   75,941",Black American,80,Yes
+2,14176,IDB-IIC,WASHINGTON,DC,"$         555,525,306",Hispanic American,"11,202",No
+2,14469,MAHONING VALLEY,YOUNGSTOWN,OH,"$              1,181,667",Black American,421,Yes
+2,15139,BERGEN DIVISION,TOMS RIVER,NJ,"$           10,392,026","Black American, Hispanic American","1,498",No
+2,15154,SALEM BAPTIST,JERSEY CITY,NJ,"$                 156,317",Black American,136,Yes
+2,15174,LEE,WASHINGTON,DC,"$              9,532,393",Asian American,464,No
+2,16172,QUEEN OF PEACE ARLINGTON,ARLINGTON,VA,"$              2,710,962","Asian American, Black American, Hispanic American",418,Yes
+2,16411,DC,WASHINGTON,DC,"$           57,471,620","Black American, Hispanic American","11,325",Yes
+2,16525,MOUNT CARMEL BAPTIST,PHILADELPHIA,PA,"$                 810,641",Black American,347,Yes
+2,16728,PINN MEMORIAL,PHILADELPHIA,PA,"$                 272,610",Black American,251,Yes
+2,16970,PORTSMOUTH VA CITY EMPLOYEES,PORTSMOUTH,VA,"$              1,734,334",Black American,751,Yes
+2,17269,HOLY TRINITY BAPTIST,PHILADELPHIA,PA,"$                   21,259",Black American,97,Yes
+2,17555,STEEL VALLEY,CLEVELAND,OH,"$           27,053,288","Black American, Hispanic American","5,375",Yes
+2,17772,HOLSEY TEMPLE,PHILADELPHIA,PA,"$                   27,773",Black American,85,Yes
+2,17874,ST. GABRIELS,WASHINGTON,DC,"$                 487,870",Black American,132,No
+2,17885,TRANSIT WORKERS,PHILADELPHIA,PA,"$           20,442,250","Black American, Hispanic American","5,803",Yes
+2,18271,PRINCE GEORGE'S COMMUNITY,BOWIE,MD,"$         166,306,066","Black American, Hispanic American","15,988",Yes
+2,18562,MT ZION WOODLAWN,CINCINNATI,OH,"$                   96,838",Black American,256,Yes
+2,19046,ST. PAULS,PHILADELPHIA,PA,"$                 136,585",Black American,163,Yes
+2,19170,MILFORD MEMORIAL,MILFORD,DE,"$              3,819,617","Asian American, Black American, Hispanic American, Native American",976,Yes
+2,19416,GLAMORGAN EMPLOYEES,LYNCHBURG,VA,"$              1,099,283",Black American,305,No
+2,19770,WARD,PHILADELPHIA,PA,"$                 119,599",Black American,146,Yes
+2,19867,URW COMMUNITY,DANVILLE,VA,"$         172,552,035","Asian American, Black American, Hispanic American, Native American","23,912",Yes
+2,20038,THE MOUNT LEBANON,BALTIMORE,MD,"$                 554,273",Black American,332,Yes
+2,20354,HILL DISTRICT,PITTSBURGH,PA,"$              5,045,052",Black American,"2,832",Yes
+2,20377,PEOPLES-NEIGHBORHOOD,WASHINGTON,DC,"$                 159,556",Black American,151,Yes
+2,20773,LOCAL 1233,NEWARK,NJ,"$           10,256,576",Black American,727,Yes
+2,20839,MORNING STAR BAPTIST,CLAIRTON,PA,"$                 488,052",Black American,349,Yes
+2,21367,PLANTERS,SUFFOLK,VA,"$              4,102,955",Black American,972,Yes
+2,21440,MESSIAH BAPTIST CHURCH,EAST ORANGE,NJ,"$                 215,752",Black American,161,Yes
+2,22007,WAYLAND TEMPLE BAPTIST,PHILADELPHIA,PA,"$                 229,269",Black American,215,Yes
+2,22049,PORT OF HAMPTON ROADS ILA,NORFOLK,VA,"$              6,227,001",Black American,"1,554",Yes
+2,22151,CLEVELAND CHURCH OF CHRIST,CLEVELAND,OH,"$                 258,768",Black American,520,Yes
+2,22323,JOHN WESLEY AME ZION CHURCH,WASHINGTON,DC,"$                   62,357",Black American,140,No
+2,22449,NESTLE (FREEHOLD) EMPLOYEES,FREEHOLD,NJ,"$              2,661,234",Hispanic American,267,No
+2,22652,CAPITAL AREA TAIWANESE,BOYDS,MD,"$           12,049,682",Asian American,492,No
+2,22686,NAPFE,WASHINGTON,DC,"$              3,105,458",Black American,826,No
+2,22700,KOREAN CATHOLIC,OLNEY,MD,"$              2,019,040",Asian American,369,No
+2,23037,WHITE ROCK,PHILADELPHIA,PA,"$                 831,636",Black American,147,No
+2,23556,PAPER CONVERTERS LOCAL 286/1034,PHILADELPHIA,PA,"$              1,512,425","Asian American, Black American, Hispanic American",914,Yes
+2,23615,HEARD A.M.E.,ROSELLE,NJ,"$                 231,141",Black American,221,Yes
+2,23678,GOYA FOODS EMPLOYEES,JERSEY CITY,NJ,"$           11,245,491",Hispanic American,815,No
+2,23760,HALIFAX COUNTY COMMUNITY,SOUTH BOSTON,VA,"$              6,131,357",Black American,"4,625",Yes
+2,24016,BETHANY BAPTIST CHRISTIAN,CHESTER,PA,"$                   72,054",Black American,45,Yes
+2,24073,PARAMOUNT BAPTIST CHURCH,WASHINGTON,DC,"$                 132,267",Black American,514,No
+2,24104,TROUVAILLE,PHILADELPHIA,PA,"$              1,874,492","Black American, Hispanic American","1,259",Yes
+2,24115,ST. ANDREW KIM,PALISADES PARK,NJ,"$              2,068,254",Asian American,532,No
+2,24167,NEW COMMUNITY,NEWARK,NJ,"$              3,298,178","Black American, Hispanic American","3,227",Yes
+2,24219,MT. AIRY BAPTIST CHURCH,WASHINGTON,DC,"$              1,353,895",Black American,438,Yes
+2,24246,MT. JEZREEL,WASHINGTON,DC,"$                 239,340",Black American,416,Yes
+2,24262,PHI BETA SIGMA,WASHINGTON,DC,"$                 465,020","Black American, Native American",676,Yes
+REGION,"CUNUMBER",CU NAME,CITY,STATE,ASSETS,MINORITY TYPE,MEMBERS,"LOWINCOME?"
+2,24266,M.A.B.C.,PHILADELPHIA,PA,"$                 137,734",Black American,205,Yes
+2,24535,FIRST BAPTIST CHURCH OF VIENNA (VA),VIENNA,VA,"$              1,361,818",Black American,394,No
+2,24578,TOLEDO URBAN,TOLEDO,OH,"$              6,895,870",Black American,"2,613",Yes
+2,24616,TBC,RICHMOND,VA,"$                 159,261",Black American,127,Yes
+2,24640,MOUNT PLEASANT BAPTIST CHURCH,ALEXANDRIA,VA,"$                 195,286",Black American,126,Yes
+2,24657,NONE SUFFER LACK,SUITLAND,MD,"$           22,649,366",Black American,"3,006",Yes
+2,24845,STEPPING STONES COMMUNITY,WILMINGTON,DE,"$              1,701,570",Black American,440,Yes
+2,24853,NEW LIFE,PHILADELPHIA,PA,"$                 481,837",Black American,624,Yes
+2,60111,CADMUS CREDIT UNION INCORPORATED,RICHMOND,VA,"$              2,006,073",Black American,539,No
+2,62796,NEWARK BOARD OF EDUCATION EMPLOYEES,NEWARK,NJ,"$           28,309,226","Asian American, Black American","4,161",No
+2,62855,DIVISION 819 TRANSIT EMPLOYEES,IRVINGTON,NJ,"$           19,377,494",Black American,"1,810",No
+2,66159,NEWARK POST OFFICE EMPLOYEES,NEWARK,NJ,"$              3,302,210",Black American,"1,265",No
+2,66787,MUNICIPAL EMPL.CREDIT UNION OF BALT,BALTIMORE,MD,"$     1,189,489,291",Black American,"114,598",Yes
+2,66860,CIVIL SERVICE EMPLOYEES ASSOCIATION,CLEVELAND,OH,"$              6,694,500",Black American,"2,207",Yes
+2,66896,PETERSBURG FED REF CREDIT UNION INC,HOPEWELL,VA,"$              4,169,582",Black American,755,No
+2,66929,CREDIT UNION OF RICHMOND INCORPORAT,RICHMOND,VA,"$           75,203,137",Black American,"7,100",No
+2,68112,W. VIRGINIA STATE CONVENTION,HILLTOP,WV,"$                 288,486",Black American,170,Yes
+2,68603,NUEVA ESPERANZA COMMUNITY,TOLEDO,OH,"$              1,894,934","Hispanic American, Native American",653,Yes
+Total Minority Depository Institutions for Region 2: 108,"$     5,778,704,597",,"544,735",,,,,
+3,169,GARY FIREFIGHTERS ASSOCIATION,GARY,IN,"$              2,085,568",Black American,368,Yes
+3,187,FLORIDA A & M UNIVERSITY,TALLAHASSEE,FL,"$           19,885,781",Black American,"3,720",Yes
+3,1068,COMPASS FINANCIAL,HIALEAH,FL,"$           25,783,745","Black American, Hispanic American","2,786",Yes
+3,1397,EDISTO,ORANGEBURG,SC,"$           25,360,306","Asian American, Hispanic American, Native American","3,849",Yes
+3,2056,SEWERAGE & WATER BOARD EMPLOYEES,NEW ORLEANS,LA,"$              7,013,860",Black American,"1,723",Yes
+3,2068,SOUTHERN TEACHERS & PARENTS,BATON ROUGE,LA,"$           31,168,307",Black American,"4,954",Yes
+3,2149,FINANCIAL,MIAMI,FL,"$           50,709,626",Hispanic American,"6,759",No
+3,2711,PROFINANCE,MERRILLVILLE,IN,"$           13,462,909",Black American,"1,845",Yes
+3,2791,TUSKEGEE,TUSKEGEE,AL,"$           10,056,979","Asian American, Black American, Hispanic American, Native American","2,508",Yes
+3,3251,GARY POLICE DEPARTMENT EMPLOYEES,GARY,IN,"$              1,668,254",Black American,206,No
+3,4416,IBERIA PARISH,NEW IBERIA,LA,"$                 398,112",Black American,266,Yes
+3,5839,SOUTHEAST LOUISIANA VETERANS HEALTH,NEW ORLEANS,LA,"$              1,677,286",Black American,840,Yes
+3,5930,HEALTHPLUS,JACKSON,MS,"$              6,663,359",Black American,"1,759",Yes
+3,6204,RIVER BEND,SOUTH BEND,IN,"$              5,690,585","Black American, Hispanic American",883,Yes
+3,6311,TVH,TUSKEGEE,AL,"$              4,824,044",Black American,758,Yes
+3,6582,SAVASTATE TEACHERS,SAVANNAH,GA,"$              3,144,537",Black American,757,Yes
+3,6667,TSU,NASHVILLE,TN,"$              1,599,526",Black American,495,Yes
+3,6918,VAPR,SAN JUAN,PR,"$         223,520,093",Hispanic American,"21,330",Yes
+3,7253,EAST BATON ROUGE TEACHERS,BATON ROUGE,LA,"$              3,924,677",Black American,"1,947",Yes
+3,7301,UNION,FARMERVILLE,LA,"$                 845,726",Black American,637,Yes
+3,7345,CARIBE,SAN JUAN,PR,"$         346,340,310",Hispanic American,"31,007",Yes
+3,7347,BORINQUEN COMMUNITY,AGUADILLA,PR,"$           17,767,218",Hispanic American,"2,100",Yes
+3,7684,JPFCE,JACKSON,MS,"$              1,251,471",Black American,187,Yes
+3,7700,ARKANSAS AM & N COLLEGE,PINE BLUFF,AR,"$              2,215,508",Black American,"1,009",Yes
+3,7970,ST. THOMAS,CHARLOTTE AMALI,VI,"$           58,660,534",Black American,"7,280",Yes
+3,7989,CHRISTIANSTED,CHRISTIANSTED,VI,"$           21,465,527",Black American,"3,236",Yes
+3,8052,MISSISSIPPI DHS,JACKSON,MS,"$              7,816,972",Black American,"2,383",Yes
+3,8069,FREDERIKSTED,FREDERIKSTED,VI,"$           12,793,590",Black American,"2,932",Yes
+3,8295,ST. MONICA,GARY,IN,"$                 153,651",Black American,189,Yes
+3,8433,MERIDIAN MUTUAL,MERIDIAN,MS,"$           36,784,759",Black American,"6,515",Yes
+3,8445,JACKSON AREA,JACKSON,MS,"$           72,107,972",Black American,"11,758",Yes
+3,9527,F A B CHURCH,SAVANNAH,GA,"$                 233,237",Black American,289,Yes
+3,9554,COUNCILL,NORMAL,AL,"$              3,051,649",Black American,619,Yes
+3,9567,COMMFIRST,JACKSON,MS,"$           10,791,137",Black American,"2,754",Yes
+3,9974,SHELBY/BOLIVAR COUNTY,BOYLE,MS,"$              2,302,020",Black American,"2,236",Yes
+REGION,"CUNUMBER",CU NAME,CITY,STATE,ASSETS,MINORITY TYPE,MEMBERS,"LOWINCOME?"
+3,10875,CHARLESTON COUNTY TEACHERS,CHARLESTON,SC,"$              1,562,546",Black American,897,Yes
+3,11246,BORINQUEN SUR,PENUELAS,PR,"$              9,734,107",Hispanic American,"2,625",Yes
+3,11263,SHREVEPORT,SHREVEPORT,LA,"$           86,690,552",Black American,"22,212",Yes
+3,11422,PROGRESSIVE,MOBILE,AL,"$              6,025,599",Black American,679,Yes
+3,11477,UNIVERSAL COOP,RIO GRANDE,PR,"$           25,317,009",Hispanic American,"3,969",Yes
+3,11658,AVENUE BAPTIST BROTHERHOOD,SHREVEPORT,LA,"$                 530,522",Black American,107,Yes
+3,11791,ST. JAMES A M E CHURCH,MIAMI,FL,"$                 307,526",Black American,270,Yes
+3,11928,WEBSTER UNITED,MINDEN,LA,"$              4,063,116",Black American,"1,284",Yes
+3,12225,RAPIDES,ALEXANDRIA,LA,"$              6,555,785",Black American,"1,173",Yes
+3,12356,IBERVILLE,PLAQUEMINE,LA,"$              5,659,875",Black American,"3,481",Yes
+3,12735,W B R T,PORT ALLEN,LA,"$              2,413,757",Black American,"1,034",Yes
+3,12748,XAVIER UNIVERSITY,NEW ORLEANS,LA,"$              1,974,945",Black American,358,Yes
+3,12771,PUERTO RICO EMPLOYEE GROUPS,SAN JUAN,PR,"$              2,577,854",Hispanic American,"1,102",Yes
+3,12837,MARVEL CITY,BESSEMER,AL,"$              7,505,688",Black American,"1,001",Yes
+3,13018,CLARKE COMMUNITY,GROVE HILL,AL,"$              3,639,967",Black American,794,Yes
+3,13248,S H P E,GREENSBURG,LA,"$              2,980,986",Black American,"1,122",Yes
+3,13472,BERKELEY COMMUNITY,MONCKS CORNER,SC,"$           11,251,741",Black American,"2,516",Yes
+3,13785,GLAMOUR COMMUNITY,QUEBRADILLAS,PR,"$              3,119,724",Hispanic American,"1,165",Yes
+3,13852,PHENIX PRIDE,PHENIX CITY,AL,"$              9,438,221",Black American,"1,768",Yes
+3,13939,PUERTO RICO,CAPARRA,PR,"$         133,259,130",Hispanic American,"20,788",Yes
+3,14103,TABERNACLE,AUGUSTA,GA,"$                 186,683",Black American,206,Yes
+3,14193,FORREST COUNTY TEACHERS,HATTIESBURG,MS,"$                 255,332",Black American,295,Yes
+3,14314,TRI-RIVERS,MONTGOMERY,AL,"$           14,591,291",Black American,"4,157",Yes
+3,14391,BAPTIST HEALTH SOUTH FLORIDA,MIAMI,FL,"$           61,175,724","Black American, Hispanic American","11,662",Yes
+3,14537,"JAMES WARD, JR.",JENNINGS,LA,"$              2,156,816",Black American,445,Yes
+3,14600,GOLMAR,CATANO,PR,"$                   67,753",Hispanic American,44,No
+3,15089,S T S P,LACOMBE,LA,"$                 727,692",Black American,342,Yes
+3,15261,ST. LANDRY PARISH,OPELOUSAS,LA,"$              5,734,753","Black American, Hispanic American","3,645",Yes
+3,15433,MEMPHIS MUNICIPAL EMPLOYEES,MEMPHIS,TN,"$           14,281,965",Black American,"2,707",Yes
+3,15588,G G W,NEW ORLEANS,LA,"$                 779,521",Black American,234,Yes
+3,15589,CADDO PARISH TEACHERS,SHREVEPORT,LA,"$           12,239,318",Black American,"3,141",Yes
+3,15757,MT ZION INDIANAPOLIS,INDIANAPOLIS,IN,"$                 730,222",Black American,373,Yes
+3,15938,SIXTH AVENUE BAPTIST,BIRMINGHAM,AL,"$              4,542,524",Black American,877,Yes
+3,16126,GARY MUNICIPAL EMPLOYEES,GARY,IN,"$                 448,923",Black American,140,Yes
+3,16256,WASHINGTON EDUCATIONAL ASSOC,FRANKLINTON,LA,"$              1,028,636",Black American,383,Yes
+3,16590,TWIN STATES,COLUMBUS,MS,"$              6,779,713",Black American,"1,472",Yes
+3,16834,TOWN OF PALM BEACH,WEST PALM BEACH,FL,"$              2,772,220",Black American,378,Yes
+3,16858,NEW PILGRIM,BIRMINGHAM,AL,"$              1,294,403",Black American,476,Yes
+3,17311,DEMOPOLIS,DEMOPOLIS,AL,"$                 760,730",Black American,891,Yes
+3,17396,CONCORDIA PARISH SCHOOL EMP,FERRIDAY,LA,"$              3,585,976",Black American,"1,331",Yes
+3,17655,C O,CHARLESTON,SC,"$              2,562,529",Black American,576,Yes
+3,17715,CITIZENS CHOICE,NATCHEZ,MS,"$              1,079,172",Black American,427,Yes
+3,18462,T E A,HOUMA,LA,"$              2,254,423",Black American,762,Yes
+3,19253,ISSAQUENA COUNTY,MAYERSVILLE,MS,"$              1,243,235",Black American,467,Yes
+3,19452,ST. JOHN SELF-HELP,RESERVE,LA,"$              1,236,595",Black American,295,No
+3,19619,TRINITY BAPTIST CHURCH,FLORENCE,SC,"$              2,385,768",Black American,174,Yes
+3,19826,SHAW UNIVERSITY,RALEIGH,NC,"$                 464,912",Black American,133,Yes
+3,19985,ARABI SUGAR WORKERS,NEW ORLEANS,LA,"$              1,452,030",Black American,239,Yes
+3,20550,TEAMSTERS LOCAL UNION #270,NEW ORLEANS,LA,"$                 824,844",Black American,483,No
+3,20793,FINANCIAL HEALTH,INDIANAPOLIS,IN,"$           33,160,658","Black American, Hispanic American","8,377",Yes
+3,20890,STEPHENS COUNTY COMMUNITY,TOCCOA,GA,"$                 167,973",Black American,113,Yes
+3,22131,FOGCE,EUTAW,AL,"$              1,315,505",Black American,717,Yes
+3,22219,U B C SOUTHERN COUNCIL INDUSTRIA WO,MINDEN,LA,"$                 723,740",Black American,405,Yes
+3,22314,CHOCTAW,CHOCTAW,MS,"$              2,306,670",Native American,"2,075",Yes
+REGION,"CUNUMBER",CU NAME,CITY,STATE,ASSETS,MINORITY TYPE,MEMBERS,"LOWINCOME?"
+3,22417,ST. MARY PARISH SCHOOL EMP.,FRANKLIN,LA,"$                 415,324",Black American,282,Yes
+3,22530,PEE DEE,FLORENCE,SC,"$           29,977,644",Black American,"5,635",Yes
+3,22581,TOTAL COMMUNITY ACTION,NEW ORLEANS,LA,"$              1,146,390",Black American,620,Yes
+3,22672,RABUN-TALLULAH,TIGER,GA,"$                 652,300",Native American,151,No
+3,23041,SOUTH FLORIDA,MIAMI,FL,"$           34,670,916","Black American, Hispanic American","3,988",Yes
+3,23294,VITELCO EMPLOYEES,CHARLOTTE AMALI,VI,"$              2,137,961",Black American,393,Yes
+3,23540,TULANE/LOYOLA,NEW ORLEANS,LA,"$           18,769,520",Black American,"3,734",Yes
+3,23607,WEST JEFFERSON,MARRERO,LA,"$              6,125,370",Black American,"1,696",No
+3,23811,MID-ISLAND,CHRISTIANSTED,VI,"$              9,438,663",Black American,"2,156",Yes
+3,23899,A M E CHURCH,BATON ROUGE,LA,"$                   96,810",Black American,382,Yes
+3,24234,OMEGA PSI PHI FRATERNITY,LAWRENCEVILLE,GA,"$              1,528,253",Black American,"1,144",Yes
+3,24433,ARKANSAS TEACHERS,LITTLE ROCK,AR,"$              1,301,433",Black American,458,Yes
+3,24435,U.P. EMPLOYEES,NORTH LITTLE RO,AR,"$              4,243,497",Black American,"1,111",Yes
+3,24546,BIG BETHEL A.M.E. CHURCH,ATLANTA,GA,"$                 319,998",Black American,350,Yes
+3,24583,NRS COMMUNITY DEVELOPMENT,BIRMINGHAM,AL,"$              1,473,517",Black American,388,Yes
+3,24623,BROOKLAND,WEST COLUMBIA,SC,"$              3,444,516",Black American,"1,240",Yes
+3,24631,PLATINUM,DULUTH,GA,"$           87,192,299",Asian American,"8,437",No
+3,24683,UNITED NEIGHBORHOOD,AUGUSTA,GA,"$              1,928,082",Black American,872,Yes
+3,24718,JETSTREAM,MIAMI LAKES,FL,"$         196,775,950","Black American, Hispanic American, Native American","21,704",Yes
+3,24781,UNION BAPTIST CHURCH,FORT WAYNE,IN,"$                 141,369",Black American,302,Yes
+3,24802,SELF-HELP,DURHAM,NC,"$         966,193,636",Hispanic American,"78,803",Yes
+3,24829,HOPE,JACKSON,MS,"$         238,276,082",Black American,"38,577",Yes
+3,24856,COMMUNITYWORKS,GREENVILLE,SC,"$              2,427,405","Black American, Hispanic American","1,159",Yes
+3,24859,FIRST UNITY,MCCOMB,MS,"$              3,180,180",Black American,"1,210",Yes
+3,24884,MID DELTA,INDIANOLA,MS,"$              1,761,257",Black American,"2,122",Yes
+3,61784,ELLISVILLE STATE SCHOOL EMPLOYEES,ELLISVILLE,MS,"$              2,470,240",Black American,549,No
+3,62148,POSTAL,BATON ROUGE,LA,"$           27,889,630",Black American,"4,013",No
+3,62599,FEDERAL EMPLOYEES,BIRMINGHAM,AL,"$           19,469,610","Asian American, Black American, Hispanic American","1,523",No
+3,62756,SOUTHWEST LOUISIANA,LAKE CHARLES,LA,"$           98,179,492",Black American,"17,778",Yes
+3,63143,IMMACULATE HEART OF MARY,LAFAYETTE,LA,"$                 839,540",Black American,369,Yes
+3,63442,MISSISSIPPI PUBLIC EMPLOYEES,JACKSON,MS,"$           23,832,151",Black American,"6,526",Yes
+3,63595,MOUNT VERNON BAPTIST CHURCH,DURHAM,NC,"$                 184,589",Black American,314,No
+3,63821,NATCHEZ-ADAMS EDUCATORS,NATCHEZ,MS,"$              1,441,946",Black American,538,Yes
+3,63869,STEPHENS-ADAMSON EMPLOYEES,CLARKSDALE,MS,"$                   55,954",Black American,20,No
+3,64034,GREATER KINSTON,KINSTON,NC,"$           11,557,182",Black American,"5,661",Yes
+3,64232,1ST RESOURCE,BIRMINGHAM,AL,"$           36,309,385",Black American,"2,384",Yes
+3,64464,TUSCALOOSA COUNTY,TUSCALOOSA,AL,"$              9,348,660",Black American,"1,332",Yes
+3,64594,FIREMAN'S,BIRMINGHAM,AL,"$              5,282,737",Black American,884,No
+3,64603,ALABAMA LAW ENFORCEMENT CREDIT UNIO,BIRMINGHAM,AL,"$           11,524,722",Black American,"1,689",Yes
+3,65780,COGIC,LAFAYETTE,LA,"$                 279,422",Black American,339,Yes
+3,66259,ORLEANS PARISH CRIMINAL SHERIFF'S,NEW ORLEANS,LA,"$              5,699,667",Black American,729,No
+3,67318,POMPANO BEACH CITY EMP.,POMPANO BEACH,FL,"$           20,109,036",Black American,"1,894",No
+3,67341,JEFFERSON COUNTY TEACHERS,MONTICELLO,FL,"$              9,650,481",Black American,"1,058",No
+3,67364,SAVANNAH POSTAL,SAVANNAH,GA,"$           20,447,659",Black American,"2,280",No
+3,67383,CREDIT UNION OF ATLANTA,ATLANTA,GA,"$           65,442,076",Black American,"17,881",No
+3,67505,1ST CHOICE,ATLANTA,GA,"$           24,030,744",Black American,"8,216",Yes
+3,67630,MADISON EDUCATION ASSOC.,MADISON,FL,"$              5,253,759",Black American,814,No
+3,67688,MACON-BIBB EMPLOYEES CREDIT UNION,MACON,GA,"$              3,144,343",Black American,"1,251",No
+3,67990,N.G.H.,NASHVILLE,TN,"$              6,492,073",Black American,"2,553",Yes
+3,68135,METROPOLITAN TEACHERS,NASHVILLE,TN,"$              2,744,899",Black American,"1,553",Yes
+3,68165,OLIVET BAPTIST,CORDOVA,TN,"$                 451,863",Black American,"1,422",No
+3,68513,SMART CHOICE,CLEVELAND,TN,"$              3,314,650","Black American, Hispanic American","1,333",Yes
+3,68593,FIRST LEGACY COMMUNITY,CHARLOTTE,NC,"$           31,321,912",Black American,"8,717",Yes
+Total Minority Depository Institutions for Region 3: 142,"$     3,603,532,528",,"520,205",,,,,
+REGION,"CUNUMBER",CU NAME,CITY,STATE,ASSETS,MINORITY TYPE,MEMBERS,"LOWINCOME?"
+4,808,U.S. EAGLE,ALBUQUERQUE,NM,"$         969,011,483","Asian American, Black American, Hispanic American, Native American","81,773",Yes
+4,850,VALLEY,BROWNSVILLE,TX,"$           71,452,088",Hispanic American,"10,269",No
+4,856,MOUNTAIN STAR,EL PASO,TX,"$           31,380,697",Hispanic American,"4,663",Yes
+4,926,RIVER CITY,SAN ANTONIO,TX,"$         117,249,620",Hispanic American,"13,134",Yes
+4,964,SOUTHWEST,ALBUQUERQUE,NM,"$           61,422,347","Hispanic American, Native American","5,086",No
+4,1409,EL PASO AREA TEACHERS,EL PASO,TX,"$         638,027,280","Asian American, Black American, Hispanic American","57,810",Yes
+4,1499,PUEBLO GOVERNMENT AGENCIES,PUEBLO,CO,"$           33,185,312",Hispanic American,"3,659",Yes
+4,1792,EVOLVE,EL PASO,TX,"$         311,130,076",Hispanic American,"25,662",Yes
+4,1838,FORT BAYARD,SANTA CLARA,NM,"$              4,399,571",Hispanic American,"1,069",Yes
+4,1879,TEXAS COMMUNITY,KINGSVILLE,TX,"$           16,125,316",Hispanic American,"2,125",Yes
+4,2077,PRAIRIE VIEW,PRAIRIE VIEW,TX,"$              4,723,091",Black American,777,Yes
+4,2131,PRIMEWAY,HOUSTON,TX,"$         471,528,757","Asian American, Black American, Hispanic American, Native American","47,823",Yes
+4,2370,"METROPOLITAN ""L""",OAK PARK,IL,"$              7,499,776",Black American,"1,410",Yes
+4,2449,PUEBLO HORIZONS,PUEBLO,CO,"$           29,690,136",Hispanic American,"3,244",Yes
+4,2467,NORTHSIDE L,BROADVIEW,IL,"$              5,598,824",Black American,"1,433",Yes
+4,2495,CHICAGO AVENUE GARAGE,CHICAGO,IL,"$              6,084,807",Black American,739,Yes
+4,2498,CTA-74TH STREET DEPOT,CHICAGO,IL,"$              8,688,836",Black American,665,Yes
+4,2505,77TH STREET DEPOT,CHICAGO,IL,"$           18,649,568","Black American, Hispanic American","3,922",Yes
+4,2566,BEVERLY BUS GARAGE,EVERGREEN PARK,IL,"$              4,052,753",Black American,"1,300",Yes
+4,3064,SELECT,SAN ANTONIO,TX,"$           41,717,946",Hispanic American,"6,634",Yes
+4,3494,GUARDIAN FIRST,FORT WORTH,TX,"$              5,089,472","Black American, Hispanic American","1,064",No
+4,4015,GENERATIONS COMMUNITY,SAN ANTONIO,TX,"$         563,930,876",Hispanic American,"52,592",Yes
+4,4060,GULF COAST,CORPUS CHRISTI,TX,"$         205,598,279",Hispanic American,"11,643",Yes
+4,4148,HIGHWAY DISTRICT 21,MCALLEN,TX,"$           42,353,961",Hispanic American,"3,824",Yes
+4,4531,GUADALUPE CENTERS,KANSAS CITY,MO,"$              2,944,306",Hispanic American,"1,374",Yes
+4,5450,HOMEPORT,CORPUS CHRISTI,TX,"$           15,288,833",Hispanic American,"2,558",Yes
+4,5497,TEXAS,DALLAS,TX,"$           62,151,910",Black American,"7,768",Yes
+4,5547,SECURITY FIRST,MCALLEN,TX,"$         357,191,089",Hispanic American,"44,454",Yes
+4,5555,WACONIZED,WACO,TX,"$              4,415,228",Black American,574,Yes
+4,5929,TIP OF TEXAS,EL PASO,TX,"$           23,582,311",Hispanic American,"3,785",Yes
+4,5935,COWBOY COUNTRY,PREMONT,TX,"$           15,210,292",Hispanic American,"2,078",Yes
+4,7023,PORT ARTHUR COMMUNITY,PORT ARTHUR,TX,"$           18,594,328","Asian American, Black American, Hispanic American","2,475",Yes
+4,7024,SOUTH TEXAS REGIONAL,LAREDO,TX,"$              7,273,534",Hispanic American,"1,232",Yes
+4,7092,GALVESTON SCHOOL EMPLOYEES,GALVESTON,TX,"$              3,609,210","Black American, Hispanic American","1,126",Yes
+4,7256,COMMUNITY,CHICAGO,IL,"$                 410,447",Black American,236,Yes
+4,7999,TELCO ROSWELL NEW MEXICO,ROSWELL,NM,"$              7,649,960",Hispanic American,"1,378",Yes
+4,8216,QUINDARO HOMES,KANSAS CITY,KS,"$                 975,323","Asian American, Black American, Native American",239,Yes
+4,8237,SOUTH TEXAS,MCALLEN,TX,"$           44,122,660",Hispanic American,"7,172",Yes
+4,8413,PORT ARTHUR TEACHERS,PORT ARTHUR,TX,"$           29,443,878",Black American,"3,744",Yes
+4,9566,EDDY,CARLSBAD,NM,"$           53,720,099",Hispanic American,"5,201",No
+4,9843,FRIONA TEXAS,FRIONA,TX,"$           12,648,147",Hispanic American,"1,784",Yes
+4,10174,FIRSTLIGHT,EL PASO,TX,"$     1,021,843,381",Hispanic American,"108,985",Yes
+4,10283,THE FOCUS,OKLAHOMA CITY,OK,"$         111,469,550","Asian American, Black American, Hispanic American, Native American","10,922",Yes
+4,10776,TEACHERS ALLIANCE,LONGVIEW,TX,"$              1,295,221",Black American,588,Yes
+4,10843,ALL SAINTS CATHOLIC,FORT WORTH,TX,"$                 528,467",Hispanic American,156,Yes
+4,10994,NAFT,PHARR,TX,"$           80,681,174",Hispanic American,"10,754",Yes
+4,11011,LAREDO,LAREDO,TX,"$         134,585,820",Hispanic American,"20,164",Yes
+4,11927,COASTAL COMMUNITY,GALVESTON,TX,"$           69,448,957","Black American, Hispanic American","9,856",Yes
+4,12108,GOOD STREET BAPTIST CHURCH,DALLAS,TX,"$                 641,839",Black American,642,Yes
+4,12426,IBEW LU 278,CORPUS CHRISTI,TX,"$              2,125,447",Hispanic American,835,Yes
+4,12472,LAREDO FIRE DEPARTMENT,LAREDO,TX,"$           12,222,789",Hispanic American,"1,459",Yes
+4,12859,FAITH COOPERATIVE,DALLAS,TX,"$              1,310,415",Black American,886,Yes
+4,13533,CTA SOUTH,CHICAGO,IL,"$              1,322,053",Black American,714,Yes
+4,13873,BROWNFIELD,BROWNFIELD,TX,"$           12,719,820","Black American, Hispanic American","2,700",No
+REGION,"CUNUMBER",CU NAME,CITY,STATE,ASSETS,MINORITY TYPE,MEMBERS,"LOWINCOME?"
+4,13931,THIRD COAST,CORPUS CHRISTI,TX,"$           13,687,144",Hispanic American,"2,253",No
+4,14058,ST. MARTIN DE PORRES PARISH,CHICAGO,IL,"$                 221,782",Black American,153,Yes
+4,14166,COCHRAN COUNTY SCHOOLS,MORTON,TX,"$              6,080,206","Black American, Hispanic American",743,Yes
+4,14610,MORNING STAR,TULSA,OK,"$                 529,661",Black American,411,Yes
+4,14734,LA JOYA AREA,LA JOYA,TX,"$           50,605,307",Hispanic American,"16,923",Yes
+4,15117,KINGSVILLE AREA EDUCATORS,KINGSVILLE,TX,"$           19,595,140",Hispanic American,"2,139",Yes
+4,15240,RESURRECTION LUTHERAN,CHICAGO,IL,"$                 228,104",Black American,90,Yes
+4,15375,WOLF POINT,WOLF POINT,MT,"$           12,630,189",Native American,"2,696",Yes
+4,15454,SHILOH ENGLEWOOD,CHICAGO,IL,"$                 249,602",Black American,157,Yes
+4,15563,BAYCEL,BAY CITY,TX,"$           57,128,349",Hispanic American,"4,316",Yes
+4,15673,ISRAEL METHCOMM,CHICAGO,IL,"$              1,542,413",Black American,233,Yes
+4,15812,SHILOH BAPTIST,WAUKEGAN,IL,"$                 294,669",Black American,175,Yes
+4,15817,PILGRIM CUCC,HOUSTON,TX,"$              1,200,115",Black American,297,Yes
+4,15973,EXPRESS-NEWS,SAN ANTONIO,TX,"$              7,207,308",Hispanic American,"1,093",Yes
+4,16271,BAKER HUGHES,HOUSTON,TX,"$           16,870,836","Black American, Hispanic American","2,358",No
+4,16476,NUVISTA,MONTROSE,CO,"$           82,427,789",Hispanic American,"7,927",Yes
+4,16754,FOUR CORNERS,KIRTLAND,NM,"$           26,452,280",Native American,"5,382",Yes
+4,16813,CAPROCK,LAMESA,TX,"$           29,224,732",Hispanic American,"3,434",Yes
+4,17067,OUR MOTHER OF MERCY PARISH HOUSTON,HOUSTON,TX,"$              2,016,404",Black American,771,Yes
+4,17105,PEAR ORCHARD,BEAUMONT,TX,"$                 878,342",Black American,332,Yes
+4,17749,WHITE EARTH RESERVATION,MAHNOMEN,MN,"$              2,042,671",Native American,"1,331",Yes
+4,18218,TEXAS LEE,HOUSTON,TX,"$                 658,031",Asian American,95,No
+4,18559,STARR COUNTY TEACHERS,RIO GRANDE CITY,TX,"$           28,809,938",Hispanic American,"4,919",Yes
+4,18882,C T A F C,CHICAGO,IL,"$                 963,161",Black American,428,Yes
+4,20179,ANTIOCH MB,DECATUR,IL,"$                 240,410",Black American,150,Yes
+4,20267,FRIO COUNTY,PEARSALL,TX,"$              6,517,957",Hispanic American,"1,517",No
+4,20392,BROWNSVILLE CITY EMPLOYEES,BROWNSVILLE,TX,"$              6,798,597",Hispanic American,"1,584",Yes
+4,21029,PORT OF HOUSTON WAREHOUSE,HOUSTON,TX,"$              4,661,472",Black American,320,No
+4,21683,WEST SIDE BAPTIST CHURCH,SAINT LOUIS,MO,"$                 330,622",Black American,380,Yes
+4,21788,VALWOOD PARK,CARROLLTON,TX,"$           21,947,005","Black American, Hispanic American","2,640",No
+4,23245,TRINITY U.C.C.,CHICAGO,IL,"$              2,946,913",Black American,870,Yes
+4,23309,SISSETON-WAHPETON,AGENCY VILLAGE,SD,"$              4,259,046",Native American,"1,698",Yes
+4,24123,M.W.P.H. GRAND LODGE OF ILLINOIS,CHICAGO,IL,"$                 398,431",Black American,469,Yes
+4,24188,COSMOPOLITAN,CHICAGO,IL,"$                   48,761",Black American,91,Yes
+4,24304,BORDER,DEL RIO,TX,"$         146,055,361",Hispanic American,"25,498",Yes
+4,24324,MET TRAN,HOUSTON,TX,"$              9,059,564",Black American,"2,553",Yes
+4,24384,NIZARI PROGRESSIVE,SUGAR LAND,TX,"$         139,198,438",Asian American,"11,447",No
+4,24463,BRENTWOOD BAPTIST CHURCH,HOUSTON,TX,"$              1,118,579",Black American,872,Yes
+4,24532,COVENANT SAVINGS,KILLEEN,TX,"$              2,642,908",Black American,"1,464",Yes
+4,24539,TRANSIT OPERATIONS,MINNEAPOLIS,MN,"$              4,096,912","Asian American, Black American, Hispanic American",844,Yes
+4,24570,HOUSTON METROPOLITAN,HOUSTON,TX,"$           51,780,234","Black American, Hispanic American","13,158",Yes
+4,24605,MOUNT OLIVE BAPTIST CHURCH,ARLINGTON,TX,"$              7,740,810",Black American,"1,258",No
+4,24614,GIDEON,WAUKEGAN,IL,"$                 298,684",Black American,294,Yes
+4,24704,SOUTH SIDE COMMUNITY,CHICAGO,IL,"$              3,722,821",Black American,"1,800",Yes
+4,24767,UNIFIED HOMEOWNERS OF ILLINOIS,CHICAGO,IL,"$                 361,226",Hispanic American,245,Yes
+4,24769,EMPOWERMENT COMMUNITY DEVELOPMENT,HOUSTON,TX,"$              1,574,379",Black American,794,Yes
+4,24804,OAK CLIFF CHRISTIAN,DALLAS,TX,"$              5,454,540",Black American,"1,913",Yes
+4,24818,PIONEER MUTUAL,SUGAR LAND,TX,"$         135,991,581",Asian American,"8,167",No
+4,24847,LAKOTA,KYLE,SD,"$              5,668,373",Native American,"2,229",Yes
+4,24852,NORTHERN EAGLE,NETT LAKE,MN,"$                 870,317",Native American,628,Yes
+4,24867,REDEEMER,GREENVILLE,TX,"$                 939,558",Black American,222,No
+4,60058,GECU,EL PASO,TX,"$     2,644,515,818",Hispanic American,"362,708",Yes
+4,60185,MOTOR COACH EMP.,EAST SAINT LOUI,IL,"$              2,243,240",Black American,"1,343",Yes
+4,60307,GRAND PRAIRIE,GRAND PRAIRIE,TX,"$           17,153,420","Black American, Hispanic American","2,388",No
+REGION,"CUNUMBER",CU NAME,CITY,STATE,ASSETS,MINORITY TYPE,MEMBERS,"LOWINCOME?"
+4,60400,ST. LOUIS COMMUNITY,SAINT LOUIS,MO,"$         263,683,846",Black American,"53,432",Yes
+4,60467,ZIA,LOS ALAMOS,NM,"$         139,130,856",Hispanic American,"13,108",No
+4,60533,SOUTHWEST HERITAGE,ODESSA,TX,"$         127,831,043",Hispanic American,"10,198",Yes
+4,60923,PARK MANOR CHRISTIAN CHURCH,CHICAGO,IL,"$              1,062,028",Black American,336,Yes
+4,61267,TEXAS WORKFORCE,SAN ANTONIO,TX,"$              9,847,541",Hispanic American,"1,262",Yes
+4,61306,TEXAS BRIDGE,CORPUS CHRISTI,TX,"$           55,804,235",Hispanic American,"6,570",No
+4,61312,THD-6,ODESSA,TX,"$              3,973,430",Hispanic American,601,No
+4,61448,ETHICON SUTURE,CHICAGO,IL,"$              1,123,989",Hispanic American,530,No
+4,61459,CROSS ROADS,KANSAS CITY,MO,"$              4,381,098","Black American, Hispanic American","1,268",Yes
+4,61532,REEVES COUNTY TEACHERS,PECOS,TX,"$           12,842,436",Hispanic American,"1,673",No
+4,61566,ST. MARK,CHICAGO,IL,"$                 657,886",Black American,296,Yes
+4,61734,RIO GRANDE VALLEY CREDIT UNION,HARLINGEN,TX,"$           96,022,203",Hispanic American,"15,822",Yes
+4,61946,RINCONES PRESBYTERIAN,CHACON,NM,"$              4,092,855",Hispanic American,745,Yes
+4,62573,RIO GRANDE,ALBUQUERQUE,NM,"$         317,855,476","Asian American, Black American, Hispanic American, Native American","30,417",Yes
+4,62841,BELEN RAILWAY EMPLOYEES,BELEN,NM,"$           29,809,863","Hispanic American,Native American","2,034",Yes
+4,63286,FOX VALLEY,AURORA,IL,"$           19,426,479","Black American, Hispanic American","2,437",Yes
+4,63388,KANSAS CITY,KANSAS CITY,MO,"$           33,806,412",Black American,"6,779",Yes
+4,63468,VALLEY EDUCATORS,ALAMOSA,CO,"$              5,082,153",Hispanic American,"1,072",Yes
+4,64252,FELLOWSHIP BAPTIST CHURCH,CHICAGO,IL,"$                 501,760",Black American,422,Yes
+4,64425,ST. LOUIS POLICEMEN`S,SAINT LOUIS,MO,"$           19,775,587",Black American,"2,354",No
+4,65231,PILGRIM BAPTIST,CHICAGO,IL,"$                 401,592",Black American,125,Yes
+4,65232,ST. ELIZABETH'S,CHICAGO,IL,"$                 124,564",Black American,196,Yes
+4,65471,GUADALUPE PARISH,ANTONITO,CO,"$           28,159,618",Hispanic American,"2,844",Yes
+4,65513,STATE EMPLOYEES,SANTA FE,NM,"$         498,520,383","Hispanic American, Native American","42,171",No
+4,65774,TEACHERS,OKLAHOMA CITY,OK,"$              6,550,675","Asian American, Black American, Hispanic American, Native American","2,522",No
+4,65932,CHICAGO MUNICIPAL EMPLOYEES,CHICAGO,IL,"$           39,729,187","Black American, Hispanic American","14,898",Yes
+4,66089,BEREAN,CHICAGO,IL,"$                 110,585",Black American,234,Yes
+4,66097,CUBA,CUBA,NM,"$           14,931,556","Hispanic American, Native American","1,878",Yes
+4,66149,GUADALUPE,SANTA FE,NM,"$         161,421,082",Hispanic American,"19,429",Yes
+4,66252,QUESTA,QUESTA,NM,"$              8,578,982",Hispanic American,"1,213",Yes
+4,66296,ST. HELENA PARISH,CHICAGO,IL,"$                 158,717",Black American,191,Yes
+4,66300,IMPERIAL,SPRINGFIELD,IL,"$                   45,286",Black American,191,Yes
+4,66366,EDINBURG TEACHERS,EDINBURG,TX,"$           91,851,588",Hispanic American,"13,101",Yes
+4,67024,MT. ZION,ZION,IL,"$                 204,125",Black American,188,Yes
+4,67413,TEXAS HEALTH RESOURCES,DALLAS,TX,"$           18,368,697","Asian American, Black American, Hispanic American","3,694",No
+4,67501,S A F E,BEAUMONT,TX,"$           10,871,461",Black American,"1,706",Yes
+4,67574,BEAUMONT COMMUNITY,BEAUMONT,TX,"$           28,643,779","Black American, Hispanic American","4,011",No
+4,67578,NCE,CORPUS CHRISTI,TX,"$              5,292,313",Hispanic American,"1,193",Yes
+4,67579,TEX MEX,LAREDO,TX,"$              9,979,621",Hispanic American,"3,110",Yes
+4,67592,WEST TEXAS EDUCATORS,ODESSA,TX,"$           55,431,485","Black American, Hispanic American","5,009",Yes
+4,67658,MEMBERS FIRST,CORPUS CHRISTI,TX,"$         125,655,861",Hispanic American,"11,678",No
+4,67669,CITY,DALLAS,TX,"$         385,393,038","Asian American, Black American, Hispanic American","40,859",No
+4,67744,UNION MEMORIAL,SAINT LOUIS,MO,"$                   84,935",Black American,133,Yes
+4,67910,MARTIN LUTHER KING,HOUSTON,TX,"$                 306,547",Black American,451,No
+4,67963,CORPUS CHRISTI POSTAL EMPLOYEES,CORPUS CHRISTI,TX,"$           15,104,667",Hispanic American,"1,998",No
+4,68010,ALPINE COMMUNITY,ALPINE,TX,"$           16,170,863",Hispanic American,"2,059",Yes
+4,68011,CORNER STONE,LANCASTER,TX,"$           21,429,189","Black American, Hispanic American","4,997",Yes
+4,68300,SOUTH TEXAS AREA RESOURCES,CORPUS CHRISTI,TX,"$           45,591,021",Hispanic American,"5,347",Yes
+4,68439,RESOURCE ONE,DALLAS,TX,"$         477,887,267","Black American, Hispanic American","59,824",Yes
+4,68472,CANAAN,URBANA,IL,"$                 402,735",Black American,414,Yes
+4,68482,COASTAL COMMUNITY AND TEACHERS,CORPUS CHRISTI,TX,"$         289,114,815",Hispanic American,"34,802",Yes
+4,68529,LIGHT COMMERCE,HOUSTON,TX,"$              3,024,423",Black American,820,Yes
+4,68592,PROMISE,HOUSTON,TX,"$              4,706,509",Hispanic American,"2,475",Yes
+4,68615,NAVY ARMY COMMUNITY,CORPUS CHRISTI,TX,"$     2,637,147,992",Hispanic American,"155,863",Yes
+REGION,"CUNUMBER",CU NAME,CITY,STATE,ASSETS,MINORITY TYPE,MEMBERS,"LOWINCOME?"
+4,68675,JAFARI NO-INTEREST,HOUSTON,TX,"$                 772,005",Asian American,196,No
+Total Minority Depository Institutions for Region 4: 163,"$   15,517,075,849",,"1,697,535",,,,,
+5,327,UNION PACIFIC CALIFORNIA EMP,FULLERTONLOS AL,CA,"$              7,976,555","Asian American, Black American, Hispanic American, Native American","1,781",No
+5,1207,LOS ANGELES,GLENDALE,CA,"$         915,188,141","Asian American, Black American, Hispanic American","59,279",No
+5,1607,BIG ISLAND,HILO,HI,"$           96,651,098",Asian American,"9,623",Yes
+5,1785,HAWAII SCHOOLS,HONOLULU,HI,"$           67,210,905",Asian American,"4,286",Yes
+5,1817,MAUI TEACHERS,WAILUKU,HI,"$           32,908,218",Asian American,"1,729",Yes
+5,1830,HONOLULU,HONOLULU,HI,"$         259,995,367",Asian American,"15,597",No
+5,1845,ALOHA PACIFIC,HONOLULU,HI,"$         802,862,987",Asian American,"47,401",No
+5,1868,OTS EMPLOYEES,HONOLULU,HI,"$           12,663,216","Asian American, Black American, Hispanic American, Native American","2,171",No
+5,1869,HAWAIIAN ELECTRIC EMPLOYEES,HONOLULU,HI,"$           36,695,424",Asian American,"2,019",Yes
+5,1870,HAWAII LAW ENFORCEMENT,HONOLULU,HI,"$         167,222,630",Asian American,"14,073",No
+5,1880,HONOLULU FIRE DEPARTMENT,HONOLULU,HI,"$           71,297,443",Asian American,"5,528",Yes
+5,1961,PEARL HAWAII,WAIPAHU,HI,"$         348,704,955",Asian American,"24,017",Yes
+5,1987,EWA,EWA BEACH,HI,"$           13,299,155",Asian American,"1,777",Yes
+5,2049,WAIALUA,WAIALUA,HI,"$           49,680,115","Asian American, Native American","3,194",Yes
+5,2275,KAHUKU,KAHUKU,HI,"$              5,881,147",Asian American,"1,632",Yes
+5,2280,HAMAKUA COAST COMMUNITY,PEPEEKEO,HI,"$           15,041,001",Asian American,"1,637",Yes
+5,2562,MAUI,KAHULUI,HI,"$         101,689,456",Asian American,"7,060",No
+5,2563,WEST MAUI COMMUNITY,LAHAINA,HI,"$           38,046,203",Asian American,"3,114",Yes
+5,2713,MCBRYDE,ELEELE,HI,"$           89,621,210",Asian American,"3,538",Yes
+5,2953,LANAI,LANAI CITY,HI,"$           27,401,211",Asian American,"1,831",Yes
+5,3218,TULARE COUNTY,TULARE,CA,"$           95,267,285",Hispanic American,"10,197",Yes
+5,3526,SCHOOLS,COMPTON,CA,"$         126,003,163","Asian American, Black American, Hispanic American, Native American","15,020",Yes
+5,3574,VALLEY ISLE COMMUNITY,KAHULUI,HI,"$         115,854,685","Asian American, Black American, Hispanic American","13,377",Yes
+5,4393,SUNKIST EMPLOYEES,VALENCIA,CA,"$              4,700,420",Hispanic American,711,Yes
+5,4633,CAMINO,MONTEBELLO,CA,"$         151,131,663",Hispanic American,"11,527",Yes
+5,4676,HAWAII PACIFIC,HONOLULU,HI,"$           51,523,625","Asian American, Black American, Hispanic American, Native American","5,853",Yes
+5,4900,COOPERATIVE CENTER,BERKELEY,CA,"$         119,387,889","Asian American, Black American, Hispanic American, Native American","11,811",Yes
+5,4915,A. E. A.,YUMA,AZ,"$         251,939,437",Hispanic American,"31,227",Yes
+5,5487,KAUAI GOVERNMENT EMPLOYEES,LIHUE,HI,"$         118,898,234","Black American, Hispanic American","7,259",Yes
+5,5927,HAWAIIAN AIRLINES,HONOLULU,HI,"$           23,196,728",Asian American,"3,175",Yes
+5,5978,WEST OAHU COMMUNITY,WAIANAE,HI,"$           39,532,557",Native American,"4,661",Yes
+5,6135,DAIJO,ORANGE,CA,"$              1,557,343",Asian American,151,No
+5,7471,MOLOKAI COMMUNITY,KAUNAKAKAI,HI,"$           24,034,251",Native American,"4,472",Yes
+5,7557,GLENDALE,GLENDALE,CA,"$           86,526,630","Asian American, Black American, Hispanic American, Native American","6,619",No
+5,7594,HONEA,FORT SHAFTER,HI,"$           22,206,391",Asian American,887,Yes
+5,7698,LAS VEGAS UP EMPLOYEES,LAS VEGAS,NV,"$              4,096,381","Asian American, Black American, Hispanic American, Native American",870,No
+5,8230,TECHNICOLOR,BURBANK,CA,"$           53,600,578","Asian American, Black American, Hispanic American","4,521",No
+5,9115,HOTEL AND TRAVEL INDUSTRY,HONOLULU,HI,"$           33,512,402",Asian American,"5,373",Yes
+5,9255,WESTERN STATES REGIONAL,LOS ANGELES,CA,"$                 819,057",Hispanic American,336,Yes
+5,9296,SUN COMMUNITY,EL CENTRO,CA,"$         427,958,798",Hispanic American,"38,233",Yes
+5,9719,ST. FRANCIS MEDICAL CENTER,HONOLULU,HI,"$              9,435,422",Asian American,"1,179",No
+5,9897,SOUTHEASTERN ARIZONA,DOUGLAS,AZ,"$           33,745,390",Hispanic American,"5,971",Yes
+5,9924,WAILUKU,KAHULUI,HI,"$           51,322,925",Asian American,"4,416",Yes
+5,10399,KAHULUI,KAHULUI,HI,"$           57,652,308",Asian American,"4,714",Yes
+5,10465,UNIVERSITY OF HAWAII,HONOLULU,HI,"$         606,593,077",Asian American,"28,688",No
+5,10648,MARYKNOLL OF L A,LOS ANGELES,CA,"$              1,117,663",Asian American,170,No
+5,10767,PEOPLES IND CHURCH,LOS ANGELES,CA,"$                   77,937",Black American,121,Yes
+5,10882,LOCAL UNION 1186 IBEW,HONOLULU,HI,"$           15,202,350",Native American,"1,106",No
+5,10938,HAWAII FIRST,KAMUELA,HI,"$           40,340,451",Native American,"7,951",Yes
+5,11194,STAR HARBOR,RANCHO DOMINGUE,CA,"$           14,230,515",Hispanic American,"3,017",Yes
+5,11332,LEAHI,HONOLULU,HI,"$              1,812,833",Asian American,454,Yes
+5,11494,KUAKINI MEDICAL AND DENTAL,HONOLULU,HI,"$           42,568,802",Asian American,"2,515",Yes
+REGION,"CUNUMBER",CU NAME,CITY,STATE,ASSETS,MINORITY TYPE,MEMBERS,"LOWINCOME?"
+5,11553,KAMEHAMEHA,HONOLULU,HI,"$           37,437,036",Asian American,"4,434",No
+5,11943,BEFIT FINANCIAL,VACAVILLE,CA,"$           38,383,927","Asian American, Black American","3,973",No
+5,12613,GLOVER,HONOLULU,HI,"$              4,335,384",Asian American,251,Yes
+5,13158,HAWAII NATIONAL GUARD,HONOLULU,HI,"$           19,196,500",Asian American,"1,898",Yes
+5,13254,CORRECTIONS,SOLEDAD,CA,"$           14,347,530","Asian American, Black American, Hispanic American, Native American","2,409",Yes
+5,14542,ONTARIO MONTCLAIR SCHOOLS,ONTARIO,CA,"$         108,550,471",Hispanic American,"8,132",Yes
+5,14739,CAL POLY,POMONA,CA,"$           14,118,562","Asian American, Black American, Hispanic American, Native American","2,582",Yes
+5,15784,NOVO,NORCO,CA,"$              9,407,468",Hispanic American,"1,968",No
+5,16547,SAN FRANCISCO LEE,SAN FRANCISCO,CA,"$           11,644,331",Asian American,836,No
+5,16570,LOS ANGELES LEE,LOS ANGELES,CA,"$                 539,497",Asian American,76,Yes
+5,17841,LIMONEIRA,SANTA PAULA,CA,"$              5,279,223",Hispanic American,650,Yes
+5,18454,VALLEY HILLS,SAN BERNARDINO,CA,"$              3,349,060","Black American, Hispanic American",442,Yes
+5,18623,CALCOM,TORRANCE,CA,"$           64,351,365","Asian American, Hispanic American","9,441",No
+5,19266,COLTON,COLTON,CA,"$              6,095,824",Hispanic American,"1,026",Yes
+5,19640,ZION HILL BAPTIST CHURCH,LOS ANGELES,CA,"$                   22,918",Black American,141,Yes
+5,20111,UNITED AMERICA WEST,VAN NUYS,CA,"$              4,221,768",Hispanic American,482,Yes
+5,20720,L. A. MISSION,SAN FERNANDO,CA,"$              7,060,769",Hispanic American,"1,440",Yes
+5,21417,CALVARY BAPTIST OF PACOIMA,SAN FERNANDO,CA,"$                 142,854",Black American,247,Yes
+5,21532,U.P.S. EMPLOYEES,ONTARIO,CA,"$           35,902,264",Hispanic American,"5,723",No
+5,21872,AUTO CLUB,CERRITOS,CA,"$           28,776,216",Hispanic American,"3,822",No
+5,23780,NORTHEAST COMMUNITY,SAN FRANCISCO,CA,"$           11,615,896",Asian American,"1,313",Yes
+5,24506,EPISCOPAL COMMUNITY,LOS ANGELES,CA,"$              4,822,170","Black American, Hispanic American","1,421",Yes
+5,24520,SANTA ANA,SANTA ANA,CA,"$           67,972,922","Asian American, Black American, Hispanic American, Native American","6,112",Yes
+5,24549,HANIN,LOS ANGELES,CA,"$           27,986,943",Asian American,"4,424",Yes
+5,24630,CU HAWAII,HILO,HI,"$         275,892,738",Asian American,"27,655",Yes
+5,24736,PACOIMA DEVELOPMENT,PACOIMA,CA,"$              3,871,071",Hispanic American,"1,263",Yes
+5,24776,COMUNIDAD LATINA,SANTA ANA,CA,"$              4,856,300",Hispanic American,"2,155",Yes
+5,24830,OAHU,HONOLULU,HI,"$           49,909,358",Asian American,"3,963",No
+5,24839,HAWAII CENTRAL,HONOLULU,HI,"$         263,012,194",Asian American,"19,507",No
+5,60024,PRIORITY ONE,SOUTH PASADENA,CA,"$         164,174,724","Asian American, Black American, Hispanic American","18,422",No
+5,61451,JACL,GLENDALE,AZ,"$                 510,989",Asian American,180,No
+5,63589,JACOM,LOS ANGELES,CA,"$           81,370,302",Asian American,"9,385",No
+5,63630,ATCHISON VILLAGE,RICHMOND,CA,"$              9,024,406","Asian American, Black American, Hispanic American","1,433",Yes
+5,64576,SAN FERNANDO VALLEY JAPANESE,NORTHRIDGE,CA,"$                 883,534",Asian American,241,No
+5,64892,JONES METHODIST CHURCH,SAN FRANCISCO,CA,"$                 445,140",Black American,299,No
+5,65059,NIKKEI,GARDENA,CA,"$           67,852,661",Asian American,"4,820",No
+5,65113,ALLUS CREDIT UNION,SALINAS,CA,"$           43,909,080",Hispanic American,"3,944",No
+5,66703,WESCOM CENTRAL,PASADENA,CA,"$     3,667,722,072","Asian American, Black American, Hispanic American, Native American","190,891",No
+5,67005,NATIONAL J. A. C. L.,SALT LAKE CITY,UT,"$           31,576,073",Asian American,"3,744",No
+5,68027,1ST VALLEY,SAN BERNARDINO,CA,"$           39,983,817","Asian American, Black American, Hispanic American, Native American","3,406",Yes
+5,68304,LOWER VALLEY,SUNNYSIDE,WA,"$         117,514,735",Hispanic American,"14,876",Yes
+5,68356,FIRST IMPERIAL,EL CENTRO,CA,"$         104,234,357",Hispanic American,"16,133",Yes
+5,68459,USC,LOS ANGELES,CA,"$         494,399,167","Asian American, Black American, Hispanic American","68,164",Yes
+5,68463,NORTH COUNTY,SAN DIEGO,CA,"$           68,014,389","Asian American, Black American, Hispanic American, Native American","4,541",No
+Total Minority Depository Institutions for Region 5: 96,"$   11,800,601,632",,"906,134",,,,,
+Total Minority Depository Institutions: 580,"$   39,972,006,462",,"4,219,576",,,,,
