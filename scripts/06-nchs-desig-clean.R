@@ -1,6 +1,7 @@
 ### this little script reads the 2013 nchs county urban/rural
 ### classification codes and gets them cleaned up to join with census data
 ### file from ftp://ftp.cdc.gov/pub/Health_Statistics/NCHS/Datasets/OAE/urbanrural/NCHSURCodes2013.txt
+### more info here: https://www.cdc.gov/nchs/data_access/urban_rural.htm
 
 library(tidyverse)
 
@@ -19,18 +20,29 @@ nchs_desig <- read_fwf(
     nchs_1990 = c(120)
   ),
   col_types = cols(.default = "c")
-  ) %>%
+) %>%
   select(state_fips:county, nchs_code = nchs_2013) %>%
   mutate(
     nchs_desc = 
-      case_when(
-        nchs_code == "1" ~ "Urban Center",
-        nchs_code == "2" ~ "Suburban",
-        nchs_code == "3" ~ "Medium City",
-        nchs_code == "4" ~ "Small City",
-        nchs_code == "5" ~ "Town",
-        nchs_code == "6" ~ "Rural Area",
-      )
+      factor(
+        case_when(
+          nchs_code == "1" ~ "Urban Center",
+          nchs_code == "2" ~ "Suburban",
+          nchs_code == "3" ~ "Medium City",
+          nchs_code == "4" ~ "Small City",
+          nchs_code == "5" ~ "Town",
+          nchs_code == "6" ~ "Rural Area"
+          ),
+        levels = c(
+          "Urban Center",
+          "Suburban",
+          "Medium City",
+          "Small City",
+          "Town",
+          "Rural Area"
+          ),
+        ordered = TRUE
+        )
     )
 
 write_rds(nchs_desig, "data/nchs_desig.rds")
