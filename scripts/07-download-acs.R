@@ -1,3 +1,6 @@
+### download basic census demographics and shapefiles for all counties in US
+### join with nchs urban/rural and make a couple simple maps
+
 library(tidyverse)
 library(tidycensus)
 library(sf)
@@ -35,7 +38,8 @@ county_acs <- get_acs(
   geometry = TRUE,
   output = "wide",
   shift_geo = TRUE
-  )
+  ) %>%
+  separate(NAME, into = c("county", "state"), sep = ", ")
 
 # percentage and select variables
 county_stat <- county_acs %>%
@@ -45,11 +49,12 @@ county_stat <- county_acs %>%
     black_pct = B03002_004E / B01001_001E * 100,
     hisp_pct = B03002_012E / B01001_001E * 100,
     asian_pct = B03002_006E / B01001_001E * 100,
-    other_pct = 100 - (white_pct + black_pct + hisp_pct + asian_pct)
+    other_pct = 100 - (white_pct + black_pct + hisp_pct + asian_pct),
     ) %>%
   select(
     geoid = GEOID,
-    name = NAME,
+    county,
+    state,
     pop_tot = B01001_001E,
     med_hhinc = B19013_001E,
     gini = B19083_001E,
@@ -86,6 +91,7 @@ nchs <- read_rds("data/nchs_desig.rds") %>%
 # join nchs designations with county stats
 county <- left_join(county_stat, nchs, by = "geoid")
 
+# map of rural urban designations
 tm_shape(county) +
   tm_fill(
     col = "nchs_desc",
@@ -94,3 +100,6 @@ tm_shape(county) +
     ) +
   tm_shape(county) +
   tm_borders(col = "black", lwd = 0.3, alpha = 0.6)
+
+write_rds(county, "data/county_stat.rds")
+  
