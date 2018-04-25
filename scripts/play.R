@@ -2,7 +2,6 @@
 library(tidyverse)
 library(sf)
 library(tmap)
-library(mapview)
 
 #### maps ####
 branches_sf <- read_rds("data/geocode/branches_geo_all.rds") %>%
@@ -11,10 +10,7 @@ branches_sf <- read_rds("data/geocode/branches_geo_all.rds") %>%
   st_set_crs(4326) %>%
   mutate_at(vars(site_name), funs(iconv(., "UTF-8", "UTF-8")))
 
-mapview(branches_sf)
-
-us_states <- albersusa::usa_sf() %>%
-  filter(!(name %in% c("Alaska", "Hawaii")))
+us_states <- tidycensus::state_laea
 
 tmap_mode("view")
 map_cu <- branches_sf %>%

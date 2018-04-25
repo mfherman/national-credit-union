@@ -56,7 +56,6 @@ branches_no_geo <- branches_all %>%
 
 write_csv(branches_no_geo, "output/no_geo.csv")
 
-
 # i manually searched those credit union branches that didn't geocode
 # and gave them new addresses that the google geocoder should handle
 # let's read that back in and then try to geocode those branches

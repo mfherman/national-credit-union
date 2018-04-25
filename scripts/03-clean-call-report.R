@@ -97,8 +97,11 @@ foicu <- read_csv(
 
 # read in table with cdfi indicator var
 cdfi_cu <- read_csv("data/all_cu.csv", col_types = cols(.default = "c")) %>%
-  select(cu_number, cdfi) %>%
-  mutate(cdfi = if_else(cdfi == "1", 1L, 0L, missing = 0L))
+  select(cu_number, cdfi, cdcu) %>%
+  mutate(
+    cdfi = if_else(cdfi == "1", 1L, 0L, missing = 0L),
+    cdcu = if_else(cdcu == "1", 1L, 0L, missing = 0L)
+    )
 
 # read in ncua call report table by table, select vars, change to numeric
 fs220 <- read_csv(
@@ -174,16 +177,22 @@ cu_all <- reduce(
     peer_group:tom_descrip2,
     lid,
     cdfi,
+    cdcu,
     mdi,
     member_minority_status:eligible_native_american,
     everything()
   )
 
+
+
+
+
+
 tabyl(cu_all, mdi)
 tabyl(cu_all, cdfi)
+tabyl(cu_all, cdcu)
 tabyl(cu_all, lid)
 tabyl(cu_all, cu_type, tom_code)
-
 
 cu_all %>%
   group_by(ncua_region) %>%
@@ -195,11 +204,12 @@ cu_all %>%
   arrange(desc(med_assets))
 
 
+tabyl(cu_all, tom_descrip2) %>%
+  arrange(desc(n))
+
 
 
 cu_all %>% filter(ncua_region == "ONES")
-
-
 
 acct_meta <- read_csv("data/call-report-data-2017-12/AcctDesc.txt")
 
@@ -207,3 +217,30 @@ foi_meta <- read_csv(
   "data/call-report-data-2017-12/FOICUDES.txt",
   col_types = cols(.default = "c")
   )
+
+
+tabyl(cu_all, tom_code) %>%
+  arrange(desc(n))
+
+hist(cu_all$tom_code)
+
+## distriubtion of national tom code
+
+
+####
+0 area based
+1, 2, 3 associational
+4 - 53 employment
+98 mixed
+54 mixed -- check some
+
+99 look at - state chartered?
+  
+  
+  
+  ### overlap/differences between cdcu and cdfi
+  ### 
+  ### distribtuion by common bond type
+  ### 
+  ### join employment based, by separate labor unions  
+  
