@@ -9,40 +9,41 @@ library(lubridate)
 # create look up table for type of membership field
 tom_code_lookup <- tribble(
   ~tom_code, ~tom_descrip1, ~tom_descrip2,
-  "00", "Community credit unions", "urban or rural, other than those designated low income",
-  "01", "Associational", "religious, other than those designated low-income",
-  "02", "Associational", "fraternal, other than those designated low-income",
-  "03", "Associational", "other than religious or fraternal, or low-income",
-  "04", "Educational", NA,
-  "05", "Military", NA,
-  "06", "Federal, state, local government", NA,
-  "10", "Manufacturing", "chemicals",
-  "11", "Manufacturing", "petroleum refining",
-  "12", "Manufacturing", "primary and fabricated metals",
-  "13", "Manufacturing", "machinery",
-  "14", "Manufacturing", "transportation equipment",
-  "15", "Manufacturing", "all other",
-  "20", "Service", "finance, insurance, real estate, trade",
-  "21", "Service", "health care",
-  "22", "Service", "transportation",
-  "23", "Service", "communications and utilities",
-  "24", "Single common bond", "other",
-  "34", "Multiple group", "primarily educational",
-  "35", "Multiple group", "primarily military",
-  "36", "Multiple group", "primarily federal, state, local government",
-  "40", "Multiple group", "primarily chemical",
-  "41", "Multiple group", "primarily petroleum refining",
-  "42", "Multiple group", "primarily primary and fabricated metals",
-  "43", "Multiple group", "primarily machinery",
-  "44", "Multiple group", "primarily transportation equipment",
-  "49", "Multiple group", "primarily other manufacturing",
-  "50", "Multiple group", "primarily finance, insurance, real estate, trade",
-  "51", "Multiple group", "primarily health care",
-  "52", "Multiple group", "primarily transportation",
-  "53", "Multiple group", "primarily communications and utilities",
-  "54", "Multiple common bond", "other",
-  "98", "Multiple group", "other",
-  "99", "Non federal credit union", NA
+  0L, "Community credit unions", "urban or rural, other than those designated low income",
+  1L, "Associational", "religious, other than those designated low-income",
+  2L, "Associational", "fraternal, other than those designated low-income",
+  3L, "Associational", "other than religious or fraternal, or low-income",
+  4L, "Educational", NA,
+  5L, "Military", NA,
+  6L, "Federal, state, local government", NA,
+  10L, "Manufacturing", "chemicals",
+  11L, "Manufacturing", "petroleum refining",
+  12L, "Manufacturing", "primary and fabricated metals",
+  13L, "Manufacturing", "machinery",
+  14L, "Manufacturing", "transportation equipment",
+  15L, "Manufacturing", "all other",
+  20L, "Service", "finance, insurance, real estate, trade",
+  21L, "Service", "health care",
+  22L, "Service", "transportation",
+  23L, "Service", "communications and utilities",
+  24L, "Single common bond", "other",
+  34L, "Multiple group", "primarily educational",
+  35L, "Multiple group", "primarily military",
+  36L, "Multiple group", "primarily federal, state, local government",
+  40L, "Multiple group", "primarily chemical",
+  41L, "Multiple group", "primarily petroleum refining",
+  42L, "Multiple group", "primarily primary and fabricated metals",
+  43L, "Multiple group", "primarily machinery",
+  44L, "Multiple group", "primarily transportation equipment",
+  49L, "Multiple group", "primarily other manufacturing",
+  50L, "Multiple group", "primarily finance, insurance, real estate, trade",
+  51L, "Multiple group", "primarily health care",
+  52L, "Multiple group", "primarily transportation",
+  53L, "Multiple group", "primarily communications and utilities",
+  54L, "Multiple common bond", "other",
+  66L, "Community credit unions", "rural district",
+  98L, "Multiple group", "other",
+  99L, "Non federal credit union", NA
   )
 
 # read in foicu data and clean
@@ -91,9 +92,20 @@ foicu <- read_csv(
       cu_type == "1" ~ "fcu",
       cu_type == "2" ~ "fiscu",
       cu_type == "3" ~ "nfiscu"
-      )
+      ),
+    tom_code = as.integer(tom_code)
     ) %>%
-  left_join(tom_code_lookup, by = "tom_code")
+  left_join(tom_code_lookup, by = "tom_code") %>%
+  mutate(
+    tom_rcd = 
+      case_when(
+        tom_code %in% c(0, 66) ~ "area",
+        between(tom_code, 1, 3) ~ "associational",
+        between(tom_code, 4, 53) ~ "employment",
+        tom_code %in% c(54, 98) ~ "multiple",
+        tom_code == 99 ~ "state"
+        )
+    )
 
 # read in table with cdfi indicator var
 cdfi_cu <- read_csv("data/all_cu.csv", col_types = cols(.default = "c")) %>%
@@ -174,7 +186,7 @@ cu_all <- reduce(
   ) %>%
   select(
     cu_number:issue_date,
-    peer_group:tom_descrip2,
+    peer_group:tom_rcd,
     lid,
     cdfi,
     cdcu,
@@ -226,18 +238,6 @@ hist(cu_all$tom_code)
 
 ## distriubtion of national tom code
 
-
-####
-0 area based
-1, 2, 3 associational
-4 - 53 employment
-98 mixed
-54 mixed -- check some
-
-99 look at - state chartered?
-  
-  
-  
   ### overlap/differences between cdcu and cdfi
   ### 
   ### distribtuion by common bond type
